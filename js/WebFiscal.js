@@ -25,6 +25,17 @@ let swiper = new Swiper('.card_content', {
   }
 });
 document.getElementById('icono_menu').addEventListener("click", function () {
-  var navegador_lista = document.getElementById('navegador_lista');
+  console.log("funca");
+  var navegador_lista = document.getElementById('navegador_envolvente2');
   navegador_lista.classList.toggle("deslizante");
+});
+const nav = document.getElementById("navegador");
+const trigger = document.getElementById("trigger");
+window.addEventListener("scroll", () => {
+  const triggerTop = trigger.getBoundingClientRect().top;
+  if (triggerTop <= 0) {
+    nav.classList.add("black");
+  } else {
+    nav.classList.remove("black");
+  }
 });

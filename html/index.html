@@ -15,37 +15,37 @@
     <title>Bienvenidos</title>
   </head>
   <body>
-    <div class="container1">
-      <nav class="navegador">
+    <div class="todo">
+      <nav class="navegador" id="navegador">
         <div class="navegador_envolvente">
-          <div class="navegador_envolvente_contenedor_icono">
-            <i class="fas fa-bars icono--menu" id="icono_menu"></i>
+          <div class="navegador_envolvente_icono">
+            <i class="fas fa-bars icono" id="icono_menu"></i>
           </div>
           <h1 class="navegador_envolvente_titulo">ESTUDIO JURIDICO CECI S.A</h1>
         </div>
-        <div class="navegador_envolvente2">
+        <div class="navegador_envolvente2" id="navegador_envolvente2">
           <ul class="navegador_envolvente2_lista" id="navegador_lista">
             <li class="navegador_envolvente2_lista_elemento">
-              <a class="navegador_anclas">
-                <i class="ri-home-line"></i>
+              <a class="ancla">
+                <i class="ri-home-line icono"></i>
                 <p>Inicio</p>
               </a>
             </li>
             <li class="navegador_envolvente2_lista_elemento">
-              <a class="navegador_anclas">
-                <i class="ri-mail-line"></i>
+              <a class="ancla">
+                <i class="ri-mail-line icono"></i>
                 <p>Contactame</p>
               </a>
             </li>
             <li class="navegador_envolvente2_lista_elemento">
-              <a class="navegador_anclas">
-                <i class="ri-trophy-line"></i>
+              <a class="ancla">
+                <i class="ri-trophy-line icono"></i>
                 <p>Casos de exito</p>
               </a>
             </li>
             <li class="navegador_envolvente2_lista_elemento">
-              <a class="navegador_anclas">
-                <i class="ri-user-line"></i>
+              <a class="ancla">
+                <i class="ri-user-line icono"></i>
                 <p>Acerca de mi</p>
               </a>
             </li>
@@ -64,229 +64,338 @@
         </div>
       </nav>
       <div class="caratula">
-        <div class="caratula_contenedorImg">
-          <img src="../img/lavidicto.png"/>
-        </div>
         <section class="caratula_descripcion">
           <div class="descripcion">
-            <h2 class="text-white">Cecilia Del Pilar</h2>
-            <h3 class="text-white">Abogada</h3>
-            <p class="text-white">
+            <h2 class="desc_titulo">Estamos para servirte</h2>
+            <h3 class="desc_logan">Has respetar tus derechos</h3>
+            <p class="desc_frase">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+            <button class="card_button">Cotizar ahora</button>
+          </div>
+        </section>
+      </div>
+      <div id="trigger"></div>
+      <div class="subtitulo">Mis principios e ideas</div>
+      <div class="seccion">
+        <div class="seccion_sub">
+          <div class="card_container swiper">
+            <div class="card_content">
+              <div class="swiper-wrapper">
+                <article class="card_article swiper-slide">
+                  <div class="card_image">
+                    <img src="../img/swiper1.png" class="card_img"/>
+                    <div class="card_shadow"></div>
+                  </div>
+                  <div class="card_data">
+                    <h3 class="card_name"></h3>
+                    <p class="card_description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolo re magna aliqua.
+                    </p>
+                    <button class="card_button">Ver mas</button>
+                  </div>
+                </article>
+                <article class="card_article swiper-slide">
+                  <div class="card_image">
+                    <img src="../img/swiper2.png" class="card_img"/>
+                    <div class="card_shadow"></div>
+                  </div>
+                  <div class="card_data">
+                    <h3 class="card_name"></h3>
+                    <p class="card_description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <button class="card_button">Ver mas</button>
+                  </div>
+                </article>
+                <article class="card_article swiper-slide">
+                  <div class="card_image">
+                    <img src="../img/swiper3.png" class="card_img"/>
+                    <div class="card_shadow"></div>
+                  </div>
+                  <div class="card_data">
+                    <h3 class="card_name"></h3>
+                    <p class="card_description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <button class="card_button">Ver mas</button>
+                  </div>
+                </article>
+                <article class="card_article swiper-slide">
+                  <div class="card_image">
+                    <img src="../img/swiper4.png" class="card_img"/>
+                    <div class="card_shadow"></div>
+                  </div>
+                  <div class="card_data">
+                    <h3 class="card_name"></h3>
+                    <p class="card_description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <button class="card_button">Ver mas</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="subtitulo">Escribeme tu consulta</div>
+    <div class="seccion">
+      <div class="seccion_sub">
+        <form>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in.
+          </p>
+          <div class="fila">
+            <div class="columna">
+              <label>Nombres completos</label>
+              <input class="formInput" type="text" name=""  />
+            </div>
+            <div class="columna">
+              <label>Correo electronico</label>
+              <input class="formInput" type="" name=""/>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="columna">
+              <label>Telefono o celular</label>
+              <input class="formInput" type="" name=""/>
+            </div>
+            <div class="columna">
+              <label>Direccion</label>
+              <input class="formInput" type="" name=""/>
+            </div>
+          </div>
+          <h3>Detalles de la consulta</h3>
+          <div class="ContformArea">
+            <textarea class="formArea"></textarea>
+          </div>
+          <button type="submit" class="card_button">Enviar consulta</button>
+        </form>
+      </div>
+    </div>
+    <div class="subtitulo">Sobre mi biografia</div>
+    <div class="seccion">
+      <div class="seccion_sub">
+        <div class="historia">
+          <div class="historia_uno">
+            <div class="caratula_contenedorImg">
+              <img src="../img/lavidicto.png"/>
+            </div>
+          </div>
+          <div class="historia_dos">
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+            <button class="card_button" style=" margin-top: 30px; ">Leer mas sobre mi</button>
           </div>
-        </section>
-      </div>
-      <h2 class="center">Mis principios e ideas</h2>
-      <div class="container_deslizadorLavidicto">
-        <div class="card_container swiper">
-          <div class="card_content">
-            <div class="swiper-wrapper">
-              <article class="card_article swiper-slide">
-                <div class="card_image">
-                  <img src="../img/swiper1.png" class="card_img"/>
-                  <div class="card_shadow"></div>
-                </div>
-                <div class="card_data">
-                  <h3 class="card_name"></h3>
-                  <p class="card_description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolo re magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                  </p>
-                  <button class="card_button">Ver mas</button>
-                </div>
-              </article>
-              <article class="card_article swiper-slide">
-                <div class="card_image">
-                  <img src="../img/swiper2.png" class="card_img"/>
-                  <div class="card_shadow"></div>
-                </div>
-                <div class="card_data">
-                  <h3 class="card_name"></h3>
-                  <p class="card_description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                  </p>
-                  <button class="card_button">Ver mas</button>
-                </div>
-              </article>
-              <article class="card_article swiper-slide">
-                <div class="card_image">
-                  <img src="../img/swiper3.png" class="card_img"/>
-                  <div class="card_shadow"></div>
-                </div>
-                <div class="card_data">
-                  <h3 class="card_name"></h3>
-                  <p class="card_description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                  </p>
-                  <button class="card_button">Ver mas</button>
-                </div>
-              </article>
-              <article class="card_article swiper-slide">
-                <div class="card_image">
-                  <img src="../img/swiper4.png" class="card_img"/>
-                  <div class="card_shadow"></div>
-                </div>
-                <div class="card_data">
-                  <h3 class="card_name"></h3>
-                  <p class="card_description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                  </p>
-                  <button class="card_button">Ver mas</button>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="swiper-button-next">
-            <i class="ri-arrow-right-s-line"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="ri-arrow-left-s-line"></i>
-          </div>
-          <div class="swiper-pagination"></div>
-        </section>
-      </div>
-    </div>
-    <h2 class="center">Escribeme tu consulta</h2>
-    <div class="containerForm">
-      <form>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in.
-        </p>
-        <div class="fila">
-          <div class="columna">
-            <label>Nombres completos</label>
-            <input class="formInput" type="text" name=""  />
-          </div>
-          <div class="columna">
-            <label>Correo electronico</label>
-            <input class="formInput" type="" name=""/>
-          </div>
-        </div>
-        <div class="fila">
-          <div class="columna">
-            <label>Telefono o celular</label>
-            <input class="formInput" type="" name=""/>
-          </div>
-          <div class="columna">
-            <label>Direccion</label>
-            <input class="formInput" type="" name=""/>
-          </div>
-        </div>
-        <h3>Detalles de la consulta</h3>
-        <div class="ContformArea">
-          <textarea class="formArea"></textarea>
-        </div>
-        <button type="submit" class="card_button">Enviar consulta</button>
-      </form>
-    </div>
-    <div class="section_linearTime">
-      <div class="main-timeline">
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2018</span>
-            <div class="timeline-icon">
-              <i class="fa fa-rocket" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">Web Development</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
-        </div>
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-users" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">JavaScript</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
-        </div>
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-cog" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">Mongo DB</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
-        </div>
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-heart" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">BlackPearl</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
-        </div>
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-globe" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">Angular</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
-        </div>
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-apple" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">Laravel</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
-        </div>
-        <div class="timeline">
-          <a href="#" class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-edit" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h3 class="title">Creapure</h3>
-              <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-          </a>
         </div>
       </div>
     </div>
+    <div class="subtitulo">Linea de tiempo</div>
+    <div class="seccion">
+      <div class="seccion_sub">
+        <div class="section_linearTime">
+          <div class="main-timeline">
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">1990</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-rocket" style="color:red" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Web Development</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2000</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-users" style="color:darkolivegreen;" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">JavaScript</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2002</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-cog" style="color:blue;" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Mongo DB</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2005</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-heart" style="color:yellow;" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">BlackPearl</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2009</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-globe" style="color:orange;" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Angular</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2010</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-apple" style="color:goldenrod;" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Laravel</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <span class="timeline-year">2015</span>
+                <div class="timeline-icon">
+                  <i class="fa fa-edit" style="color:purple;" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h3 class="title">Creapure</h3>
+                  <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer seccion">
+      <div class="cuerpo seccion_sub">
+        <div class="cuerpo_uno">
+          <div class="containerDatos">
+            <p class="containerDatos_info">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p class="containerDatos_datos">
+              <i class="fa fa-map-marker-alt"></i>
+              Dato1
+            </p>
+            <p class="containerDatos_datos">
+              <i class="fa fa-phone-alt"></i>
+              Dato2
+            </p>
+            <p class="containerDatos_datos">
+              <i class="fa fa-envelope"></i>
+              Dato3
+            </p>
+            <div class="containerDatos_redes">
+              <a class="redes_footer" href="tel:+1234567890">
+                <i class="fa fa-phone-alt mr-2"></i>
+              </a>
+              <a class="redes_footer" href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f mr-2"></i>
+              </a>
+              <a class="redes_footer" href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram mr-2"></i>
+              </a>
+              <a class="redes_footer" href="https://wa.me/1234567890" target="_blank">
+                <i class="fab fa-whatsapp mr-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cuerpo_dos">
+          <div class="cuerpo_dos_containerServ">
+            <div class="indice">
+              <h5 class="indice_titulo">Secciones</h5>
+              <div class="indice_lista">
+                <a class="indice_lista_link" href="">
+                  <i class="fa fa-angle-right"></i>
+                  ParteX
+                </a>
+                <a class="indice_lista_link" href="">
+                  <i class="fa fa-angle-right"></i>
+                  ParteX
+                </a>
+                <a class="indice_lista_link" href="">
+                  <i class="fa fa-angle-right"></i>
+                  ParteX
+                </a>
+                <a class="indice_lista_link" href="">
+                  <i class="fa fa-angle-right"></i>
+                  ParteX
+                </a>
+                <a class="indice_lista_link" href="">
+                  <i class="fa fa-angle-right"></i>
+                  ParteX
+                </a>
+              </div>
+            </div>
+            <div class="servicios">
+              <h5>Mis servicios</h5>
+              <div class="servicios_lista">
+                <a class="servicios_lista_serv" href="">
+                  <i class="fa fa-angle-right"></i>
+                  Servicio1
+                </a>
+                <a class="servicios_lista_serv" href="">
+                  <i class="fa fa-angle-right"></i>
+                  Servicio1
+                </a>
+                <a class="servicios_lista_serv" href="">
+                  <i class="fa fa-angle-right"></i>
+                  Servicio1
+                </a>
+                <a class="servicios_lista_serv" href="">
+                  <i class="fa fa-angle-right"></i>
+                  Servicio1
+                </a>
+                <a class="servicios_lista_serv" href="">
+                  <i class="fa fa-angle-right"></i>
+                  Servicio1
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_base"></div>
+    </footer>
     <script src="../js/swiper-bundle.js"></script>
     <script src="../js/WebFiscal.js"></script>
   </body>
